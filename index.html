@@ -103,7 +103,6 @@
         <th>State</th>
         <th>Postcode</th>
         <th>State-District</th>
-        <th>Suburb</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -140,10 +139,10 @@
                         <td>${data.results[0].components.state}</td>
                         <td>${data.results[0].components.postcode}</td>
                         <TD>${data.results[0].components.state_district}</TD>
-                        <td>${data.results[0].components.suburb}</td>
+                        
                     </tr>
                 `
-                console.log(data.results[0].components.country)
+               
             }
          }
         xhr.send()
@@ -151,3 +150,4 @@
    
    }
 </script>
+
